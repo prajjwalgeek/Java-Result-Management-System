@@ -9,7 +9,7 @@ abstract class result_management
 
 class Student extends result_management
 {
-    File f1=new File("Marks.txt");   
+    File f1=new File("C:\\Users\\Prajjwal Mishra\\Desktop\\new\\Marks1.java.csv");   
     String name;
     int reg_no;
     int maths, phy, comp, eng;
@@ -35,7 +35,7 @@ class Student extends result_management
         
 try{
         PrintWriter pw=new PrintWriter(new FileOutputStream(f1,true));
-        pw.append("\n"+"Name"+name+"RegNo"+reg_no+"Math"+maths+"Phy"+phy+"CS"+comp+"Eng"+eng);
+        pw.append("\n"+reg_no+","+name+","+maths+","+phy+","+comp+","+eng);
         pw.close();}
         catch (Exception e) {}
         
