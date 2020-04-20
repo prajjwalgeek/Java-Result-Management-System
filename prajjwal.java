@@ -54,7 +54,7 @@ try{
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
-        File file = new File("C:\\Users\\DIVYENDU JHA\\Desktop\\new\\Marks1.java.csv");
+        File file = new File("C:\\Users\\Prajjwal Mishra\\Desktop\\new\\Marks1.java.csv");
         Scanner in = null;
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter Registration Number: ");
